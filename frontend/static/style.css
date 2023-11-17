@@ -1,0 +1,216 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    overflow-x: hidden;
+}
+
+header {
+    height: 100px;
+    background-color: #3f1bf6;
+    color: #ffffff;
+}
+
+.header {
+    max-width: 1140px;
+    height: 100px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    width: 155px;
+    height: 40px;
+}
+
+.menu {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.menu ul,
+.menu li {
+    list-style: none;
+}
+
+.menu ul {
+    display: flex;
+}
+
+.menu li a {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    border-bottom: 5px solid #000;
+}
+
+.menu li a:hover,
+.menu .active a {
+    border-bottom: 5px solid #ffffff;
+    color:#000000;
+}
+
+.banner {
+    height: calc(100vh - 100px);
+    background-color: #f7f7f7;
+    background-size: cover;
+    background-position: bottom;
+    overflow: hidden;
+}
+
+.banner .sliders{
+    width: 1000vw;
+    height: 100%;
+}
+
+.banner .slide {
+    width: 100vw;
+    height: 100%;
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.banner .slidearea {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    color: #3f1bf6;
+}
+
+.banner .slidearea form {
+        margin: 20px auto;
+        width: 300px;
+        background-color: #fff;
+        border: 1px solid #ccc;
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.banner .slidearea input[type="file"] {
+    margin: 10px 0;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+}
+
+
+input[type="submit"]{
+    background-color: #0056b3;
+    display: inline-block;
+    background-color: #3f1bf6;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 10px 30px;
+    margin-top: 30px;
+    border-radius: 20px;
+}
+
+.banner h1 {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.banner h1 span {
+    color: #3f1bf6;
+}
+
+.banner h1 {
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+.default {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.default .section-title,
+.default .section-desc {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.default .section-title {
+    font-size: 20px;
+}
+
+.default .section-desc {
+    font-size: 12px;
+    color: #f7f7f7;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.default .section-body {
+    max-width: 1140px;
+    margin: auto;
+}
+
+.default.light {
+    background-color: #3f1bf6;
+}
+
+.default.light .section-title,
+.default.light .section-body {
+    color: #f7f7f7;
+}
+
+.default.dark {
+    background-color: #3f1bf6;
+}
+
+.default.dark .section-title,
+.default.dark .section-body {
+    color: #fff;
+}
+
+.section-aboutus {
+    display: flex;
+}
+
+.section-aboutus--left {
+    flex: 1;
+}
+
+.section-aboutus--left p {
+    font-size: 14px;
+    line-height: 25px;
+}
+
+.section-aboutus--right {
+    width: 520px;
+    text-align: center;
+}
+
+.section-aboutus--right img{
+    width: 480px;
+    box-shadow: 0px 5px 10px #333;
+}
+
+.section-team-area {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding-bottom: 50px;
+    padding-top: 50px;
+}

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Home - Delfino</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+</head>
+<body>
+<header>
+    <div class="header">
+        <div class="logo">
+            <img src="/frontend/static/logo.png" alt="Logo">
+        </div>
+        <div class="menu">
+            <nav>
+                <ul>
+                    <li class="active"><a href="">Início</a></li>
+                    <li><a href="">Delfino</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</header>
+<main>
+    <section class="banner">
+        <div class="sliders">
+            <div class="slide">
+                <div class="slidearea">
+                    <h1> Insira o seu <br/><span>Informe mensal</span></h1>
+                    <form action="upload.php" method="post" enctype="multipart/form-data">
+                        <input type="file" name="arquivo" id="arquivo">
+                        <input type="submit" value="Enviar">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="default light">
+        <div class="section-title">Sobre o Delfino</div>
+        <div class="section-desc">Quem somos?</div>
+        <div class="section-body">
+            <div class="section-aboutus">
+                <div class="section-aboutus--left">
+                    <p>"Delfino" é o nome dado ao grupo de alunos responsável pelo o projeto desenvolvido. Os integrantes tinham como objetivo desenvolver um modelo preditivo que auxilie a CVM (Comissão de Valores Mobiliários) na supervisão de FIDCs, identificando potenciais riscos relacionados à provisão para eventuais perdas decorrentes da inadimplência dos créditos cedidos. Como objetivos mais especificos, auxiliar na analise e compreenção dos padrões e tendências dos dados relacionados aos FIDCs e seus créditos cedidos. Também, fornecer insights à CVM para atuação preventiva, minimizando riscos e preservando a integridade do mercado de capitais brasileiro.</p>
+                    <br/>
+                </div>
+                <div class="section-aboutus--right">
+                    <img src="media/foto7.jpg"/>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="default dark bg-team">
+        <div class="section-team-area">
+        <div class="section-title">Agradecimentos</div>
+                </div>
+            </div>
+        </div>
+        </section>
+</main>
+<footer>
+
+</footer>
+</body>  
+</html>
